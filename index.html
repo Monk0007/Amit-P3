@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Corner Restaurant</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("restaurant.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.92);
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #8B0000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #8B0000;
+        }
+
+        h2 {
+            color: #8B0000;
+            border-bottom: 2px solid #8B0000;
+            padding-bottom: 5px;
+        }
+
+        table {
+            width: 70%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th {
+            background-color: #8B0000;
+            color: white;
+        }
+
+        .feedback {
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        .feedback input,
+        .feedback textarea,
+        .feedback select {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0 15px;
+        }
+
+        .feedback textarea {
+            height: 100px;
+        }
+
+        .feedback button {
+            background-color: #8B0000;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Food Corner</h1>
+        <p>Delicious Food | Great Taste | Happy Moments</p>
+    </header>
+
+    <hr>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About Us</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <hr>
+
+    <h2>Welcome to Food Corner</h2>
+
+    <p>
+        Welcome to Food Corner Restaurant. We serve fresh,
+        delicious and hygienic food for our customers.
+    </p>
+
+    <h2>Our Special Menu</h2>
+
+    <table>
+        <tr>
+            <th>Food Item</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+
+        <tr>
+            <td>Pizza</td>
+            <td>Italian</td>
+            <td>₹250</td>
+        </tr>
+
+        <tr>
+            <td>Paneer Tikka</td>
+            <td>Indian</td>
+            <td>₹180</td>
+        </tr>
+
+        <tr>
+            <td>Veg Burger</td>
+            <td>Fast Food</td>
+            <td>₹120</td>
+        </tr>
+
+        <tr>
+            <td>Cold Coffee</td>
+            <td>Beverage</td>
+            <td>₹100</td>
+        </tr>
+    </table>
+
+    <h2>Opening Hours</h2>
+
+    <p style="text-align: center;">
+        Monday - Sunday: 11:00 AM to 10:00 PM
+    </p>
+
+    <h2>Customer Feedback</h2>
+
+    <div class="feedback">
+
+        <form>
+
+            <label>Full Name:</label>
+            <input type="text" name="name" placeholder="Enter your name">
+
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Enter your email">
+
+            <label>How was your experience?</label>
+            <select name="rating">
+                <option>Select Rating</option>
+                <option>Excellent</option>
+                <option>Very Good</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+            </select>
+
+            <label>Your Feedback:</label>
+            <textarea name="feedback"
+                placeholder="Write your feedback here..."></textarea>
+
+            <div style="text-align: center;">
+                <button type="submit">Submit Feedback</button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 Food Corner Restaurant</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
